@@ -52,4 +52,13 @@ public class BuildVocabulary {
 	public HashSet<String> getVocabulary() {
 		return vocabulary;
 	}
+	
+	/**
+	 * Get size of vocabulary
+	 * 
+	 * @return	: size of vocabulary
+	 */
+	public int vocabularySize() {
+		return vocabulary.size();
+	}
 }
