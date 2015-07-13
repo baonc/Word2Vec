@@ -6,7 +6,7 @@ package com.bigdata.vccorp.word2vec;
  * 
  * @created 13 / 7 / 2015
  * @author baonc
- *
+ * @github https://github.com/baonc/Word2Vec
  */
 public class OneWordContext {
 	
