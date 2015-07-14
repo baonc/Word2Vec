@@ -25,5 +25,12 @@
                  <artifactId>nd4j-jblas</artifactId> 
                  <version>${nd4j.version}</version>
                </dependency>
+
+            <dependency>
+  				<groupId>com.medallia.word2vec</groupId>
+  				<artifactId>Word2VecJava</artifactId>
+  				<version>0.9.0</version>
+			</dependency>
             </dependencies>
+            
 </project>
