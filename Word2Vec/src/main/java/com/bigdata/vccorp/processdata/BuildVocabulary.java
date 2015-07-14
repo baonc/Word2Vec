@@ -17,7 +17,7 @@ import java.util.HashSet;
  */
 public class BuildVocabulary {
 	private HashSet<String> vocabulary;
-	private static final String INPUT_PATH = "smallexample.txt";
+	private static final String INPUT_PATH = "src/main/resources/smallexample.txt";
 	
 	/**
 	 * Constructor
@@ -60,5 +60,17 @@ public class BuildVocabulary {
 	 */
 	public int vocabularySize() {
 		return vocabulary.size();
+	}
+	
+	/**
+	 * Test function
+	 * 
+	 * @param args	: main args
+	 */
+	public static void main(String args[]) {
+		BuildVocabulary voca = new BuildVocabulary();
+		voca.buildVocabulary();
+		HashSet<String> vocabularies = voca.getVocabulary();
+		vocabularies.forEach(vocabulary -> System.out.println(vocabulary));
 	}
 }
