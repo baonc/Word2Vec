@@ -58,7 +58,7 @@ public class BuildVocabulary {
 	 * 
 	 * @return	: size of vocabulary
 	 */
-	public int vocabularySize() {
+	public int getVocabularySize() {
 		return vocabulary.size();
 	}
 	
